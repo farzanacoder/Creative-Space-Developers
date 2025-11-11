@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectImage from "../../components/ProjectImage";
-import Img from "../../../public/ImageWithFallback (1).png";
-import Img1 from "../../../public/ImageWithFallback (2).png";
-import Img2 from "../../../public/ImageWithFallback (3).png";
-import Img3 from "../../../public/Rectangle 1.png";
+import Img from "../../../public/ImageWithFallback (4).png";
+import Img1 from "../../../public/ImageWithFallback (5).png";
+import Img2 from "../../../public/ImageWithFallback (6).png";
+import Img3 from "../../../public/Rectangle 1 (1).png";
 import Image from "next/image";
 
 export default function page() {
@@ -30,7 +30,7 @@ export default function page() {
       </div>
 
       {/* Project Image Section */}
-      <div className="mx-auto w-[90%]">
+      <div className="mx-auto container px-4">
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6 my-16 lg:my-[120px]">
           <ProjectImage text="Horizon Commercial Complex" title="Chattogram" Proimg={Img2} />
           <ProjectImage text="Horizon Commercial Complex" title="Chattogram" Proimg={Img} />
