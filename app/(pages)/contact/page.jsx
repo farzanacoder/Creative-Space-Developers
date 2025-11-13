@@ -1,7 +1,18 @@
-import React from 'react'
+"use client"
 
-export default function page() {
+import Banner from '../../components/contact/Banner'
+import Contactcontent from '../../components/contact/Contactcontent '
+import Map from '../../components/contact/Map'
+
+
+const page = () => {
   return (
-    <div>page</div>
+    <section>
+    <Banner />
+    <Contactcontent />
+    <Map />
+    </section>
   )
 }
+
+export default page

@@ -2,14 +2,43 @@
 @import "tailwindcss";
 
 
-
-
-@theme {
-    --width-container: 90%;
-
-}
-
 body{
     font-family: "DM Sans", sans-serif;
 
+}
+
+
+:root {
+  /* --background: #f9fafb; */
+  --primary: #09231e;
+  --secondary: #4a5565;
+  --brand: #2e7d32;
+
+  
+}
+
+@theme inline {
+  /* --color-background: var(--background);
+  --color-foreground: var(--foreground); */
+  --font-sans: var(--font-inter); 
+  --font-mono: var(--font-inter); 
+
+  --color-brand: var(--brand);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+
+    --width-container: 90%;
+
+    
+
+}
+
+body {
+  /* background: #ffffff; */
+  font-family: var(--font-inter), sans-serif; 
+}
+
+.container{
+  margin: 0 auto;
+  width: 90%;
 }
